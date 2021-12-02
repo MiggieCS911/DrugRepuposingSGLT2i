@@ -7,10 +7,10 @@ For this project, I try to build a model that can predict the inhibitory bioacti
 
 This project is composed of 4 parts.
 1. Download data from the ChemBL database. We select only compounds that have been tested the bioactivity to SGLT2.
-2. Clean and prepare data for modeling
-    2.1 categorize IC50 to bioactivity classes (active/ inactive)
-    2.2 Input features are the structure of the compound. We use Pubchem fingerprint to be the input of the model.
-    2.3 We also check the drug-likeness property of our data
+2. Clean and prepare data for modeling <BR>
+    2.1 categorize IC50 to bioactivity classes (active/ inactive) <BR>
+    2.2 Input features are the structure of the compound. We use Pubchem fingerprint to be the input of the model.<BR>
+    2.3 We also check the drug-likeness property of our data.<BR>
 3. Construct the model. We split to train set: test set = 80: 20. The Random Forests and Extreme Gradient Boosting were used to be algorithm ML models. 
 4. Deploy Models to the dataset that have not been tested activity to SGLT2 (from ChemBL). 
 
