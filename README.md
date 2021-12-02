@@ -22,4 +22,5 @@ Thank you:
 - Data from chEMBL (https://www.ebi.ac.uk/chembl/)
 - PaDELpy (https://github.com/ecrl/padelpy) for turn SMILES to Pubchem fingerprint.
 - RDKit (https://www.rdkit.org/docs/api-docs.html)
+- PubChem (https://pubchem.ncbi.nlm.nih.gov/)
 - Libraries: Pandas, 1.1.5; Numpy, 1.19.5; Matplotlib, 3.2.2; Seaborn, 0.11.2; Scikit-learn, 1.0.1; XGboost, 1.1.3
